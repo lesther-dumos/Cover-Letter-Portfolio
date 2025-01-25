@@ -44,6 +44,15 @@ Table of Content:
 @import url("https://fonts.googleapis.com/css?family=Heebo:300,400,500,700|Roboto:300,400,500,700");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+.custom-icon {
+  width: 70px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Space below the image */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  display: block; /* Ensure the image is treated as a block element */
+}
+
+
 .list {
   list-style: none;
   margin: 0px;
