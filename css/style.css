@@ -298,6 +298,12 @@ button:focus {
 /*----------------------------------------------------*/
 /* Home Banner Area css
 ============================================================================================ */
+
+.home_left_img img {
+  max-width: 70%; /* Image will never exceed its container's width */
+  height: auto; /* Maintain aspect ratio */
+}
+
 .home_banner_area {
   z-index: 1;
   background: url(../img/banner/home-banner.jpg) no-repeat scroll center center;
